@@ -1,0 +1,37 @@
+﻿body {
+}
+
+h3 {
+    text-align: right;
+    margin-right:10px;
+}
+
+.gridview {
+    font-family: 'Times New Roman';
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    border: 1.5px solid #F13737;
+    margin-top: 0px;
+}
+
+.gridview th {
+    background-color: rgba(243, 103, 238, 0.5);
+    font-weight: bold;
+    padding: 8px;
+    border: 1.5px solid #F13737;
+}
+
+.gridview tr:nth-child(even) {
+    background-color: rgba(106, 243, 103, 0.5);
+}
+
+.gridview tr:not(:first-child):hover {
+    background-color: rgba(244, 200, 87, 0.5);
+}
+
+.gridview td {
+    padding: 8px;
+    text-align: center;
+    border: 1.5px solid #F13737;
+}

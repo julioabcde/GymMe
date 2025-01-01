@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b2ee39e04b3c4025a1bb3d8e7e1c4b51" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="GymMeDatabaseModel.MsCart" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GymMeDatabaseModel.MsSupplement" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GymMeDatabaseModel.MsSupplementType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="GymMeDatabaseModel.MsUser" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GymMeDatabaseModel.TransactionDetail" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GymMeDatabaseModel.TransactionHeader" Width="1.5" PointX="3.25" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__MsCart__Suppleme__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__MsCart__UserID__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__MsSupplem__Suppl__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__Transacti__Suppl__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__Transacti__UserI__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="GymMeDatabaseModel.FK__Transacti__Trans__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

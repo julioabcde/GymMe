@@ -1,0 +1,78 @@
+﻿body {
+}
+
+h2 {
+    text-align: center;
+}
+
+.UpdateTable {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+    border: 2px solid rgba(167, 225, 250, 1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.image-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+}
+
+.choose_button {
+    background-color: rgba(167, 225, 250, 1);
+    font: 14px 'times new roman';
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 550;
+}
+
+.choose_button:hover {
+    background-color: #5DC9FF
+}
+
+.load_button {
+    background-color: rgba(167, 225, 250, 1);
+    font: 14px 'times new roman';
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 550;
+}
+
+.load_button:hover {
+    background-color: #5DC9FF
+}
+
+.center {
+    text-align: center;
+}
+
+.center td {
+    text-align: center;
+}
+
+.action_button {
+    background-color: rgba(167, 225, 250, 1);
+    font: 17px 'times new roman';
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 550;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.action_button:hover {
+    background-color: #5DC9FF;
+}
+
+.textbox {
+    border: 1.5px solid;
+    height: 17px;
+    border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+﻿body {
+}
+
+h2 {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.gridview {
+    font-family: 'Times New Roman';
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    border: 1.5px solid #F13737;
+}
+
+.gridview th {
+    background-color: rgba(243, 103, 238, 0.5);
+    font-weight: bold;
+    padding: 6px;
+    border: 1.5px solid #F13737;
+}
+
+.gridview tr:nth-child(even) {
+    background-color: rgba(106, 243, 103, 0.5);
+}
+
+.gridview tr:not(:first-child):hover {
+    background-color: rgba(244, 200, 87, 0.5);
+}
+
+.gridview td {
+    padding: 8px;
+    text-align: center;
+    border: 1.5px solid #F13737;
+}
+
+.view_button {
+    background-color: rgba(167, 225, 250, 1);
+    font: 14px 'times new roman';
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 550;
+}
+
+.view_button:hover {
+background-color: #5DC9FF;
+}

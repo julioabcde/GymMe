@@ -1,0 +1,50 @@
+﻿body {
+}
+
+h1 {
+    text-align: center;
+}
+
+.LoginTable {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+    border: 2px solid rgba(167, 225, 250, 1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#Btn_Login {
+    background-color: rgba(167, 225, 250, 1);
+    font: 17px 'times new roman';
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#Btn_Login:hover {
+    background-color: #5DC9FF;
+}
+
+.center {
+    text-align: center;
+}
+
+.center td {
+    text-align: center;
+}
+
+a {
+    color: rgb(243, 103, 238);
+}
+
+a:hover {
+    color: #D210C9;
+}
+
+.textbox {
+    border: 1.5px solid;
+    height: 17px;
+    border-radius: 5px;
+}

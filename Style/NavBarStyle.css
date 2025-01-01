@@ -1,0 +1,26 @@
+﻿body {
+    margin: 0 auto;
+}
+.Navbar {
+    background-color: rgba(167, 225, 250, 1);
+    height: 35px;
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-button {
+    font: 18px 'times new roman';
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.nav-button:hover {
+    color: rgb(243, 103, 238);
+    background-color: #5DC9FF;
+}

@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavBar.master.cs" Inherits="GymMe.Layout.NavBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Style/NavBarStyle.css" rel="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Navbar">
+            <asp:Button ID="Btn_Home" class="nav-button" runat="server" Text="Home" Visible="false" OnClick="Btn_Home_Click"/>
+            <asp:Button ID="Btn_ManageSupplement" class="nav-button" runat="server" Visible="false" Text="Manage Supplement" OnClick="Btn_ManageSupplement_Click" />
+            <asp:Button ID="Btn_OrderQueue" class="nav-button" runat="server" Visible="false" Text="Order Queue" OnClick="Btn_OrderQueue_Click" />
+            <asp:Button ID="Btn_OrderSupplement" class="nav-button" runat="server" Visible="false" Text="Order Supplement" OnClick="Btn_OrderSupplement_Click"/>
+            <asp:Button ID="Btn_History" class="nav-button" runat="server" Visible="false" Text="History" OnClick="Btn_History_Click"/>
+            <asp:Button ID="Btn_Profile" class="nav-button" runat="server" Visible="false" Text="Profile" OnClick="Btn_Profile_Click" />
+            <asp:Button ID="Btn_TransactionReport" class="nav-button" runat="server" Visible="false" Text="Transaction Report" OnClick="Btn_TransactionReport_Click" />
+            <asp:Button ID="Btn_Logout" class="nav-button" runat="server" Visible="false" Text="Log Out" OnClick="Btn_Logout_Click"/>
+        </div>
+        <div class="Body">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

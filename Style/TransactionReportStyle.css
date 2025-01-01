@@ -1,0 +1,12 @@
+﻿body {
+}
+
+h2{
+    text-align: center;
+}
+
+.crv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
